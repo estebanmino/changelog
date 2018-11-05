@@ -4,7 +4,7 @@
     "description": "Automatic CHANGELOG.",
     "main": "index.js",
     "scripts": {
-        "auto-changelog": "auto-changelog"
+        "auto-changelog": "auto-changelog --template keepchangelog.hbs"
     },
     "devDependencies": {
         "auto-changelog": "^1.8.1"

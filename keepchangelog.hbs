@@ -1,0 +1,13 @@
+# Changelog
+
+{{#each releases}}
+  ## {{#if tag}} {{niceDate}} {{else}} Current Develop Branch {{/if}}
+
+  {{#if merges}}
+
+    {{#each merges}}
+      - {{#if href}}[`#{{id}}`]({{href}}){{/if}}: {{{message}}}
+    {{/each}}
+  {{/if}}
+
+{{/each}}
